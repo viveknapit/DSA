@@ -33,8 +33,8 @@ Explore our documentation section for explanations of key DSA concepts, essentia
 
 This repository is available under the MIT License, allowing for personal and educational use.
 
-## Let's Master DSA Together!
+## Let's Master DSA Together! 
 
 Start your journey toward DSA mastery. Dive into code implementations, explore practical examples, and enhance your understanding of algorithms and data structures.
 
-[Badge: Build Status | Badge: License | Badge: Contributions]
+

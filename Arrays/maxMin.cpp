@@ -12,7 +12,7 @@ int findSum(int A[], int N)
     	for(int i=0;i<N;i++){
     	    mi = min(mi, A[i]);
     	    mx = max(mx, A[i]);
-    	}
+    	} 
     	return mi+mx;
     }
 
