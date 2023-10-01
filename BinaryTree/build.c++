@@ -28,8 +28,7 @@ node* buildTree(node* root){
 
     cout<<"Enter right node of "<<data<<endl;
     root->right = buildTree(root->right);
-
-
+    return root;
 }
 int main(){
     node* root = NULL;
