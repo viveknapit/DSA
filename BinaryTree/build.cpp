@@ -31,9 +31,39 @@ node* buildTree(node* root){
     root->right = buildTree(root->right);
     return root;
 }
-
+// build binary tree from lavel order
+void buildTreeByLavelOrder(node* &root){
+    int rootData;
+    cout<<"Enter data for root"<<endl;
+    cin>>rootData;
+    root= new node(rootData);
+    queue<node*>q;
+    q.push(root);
+    while(!q.empty()){
+        node* temp = q.front();
+        q.pop();
+        
+            int leftNode;
+            cout<<"Enter data for left node of "<< temp->data <<endl;
+            cin>>leftNode;
+            if(leftNode != -1){
+            temp->left = new node(leftNode);
+            q.push(temp->left);
+            }
+        
+        
+            int rightNode;
+            cout<<"Enter data for right node of "<<temp->data<<endl;
+            cin>>rightNode;
+            if(rightNode != -1){
+            temp->right = new node(rightNode);
+            q.push(temp->right);
+            }
+    }
+}
 // level order traversing of a binary tree
 void levelOderTraversal(node* root){
+    
     queue<node*>q;
     q.push(root);
     q.push(NULL);
@@ -57,7 +87,9 @@ void levelOderTraversal(node* root){
 }
 int main(){
     node* root = NULL;
-    buildTree(root);
+    
+  //  buildTree(root);
+      buildTreeByLavelOrder(root);
 
     cout<<"printing........."<<endl;
     levelOderTraversal(root);
