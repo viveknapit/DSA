@@ -1,1 +1,1 @@
-{"name":"Local: build","url":"i:\\CSE\\learning\\DSA\\BinaryTree\\build.cpp","tests":[{"id":1696367729066,"input":"1 2 3 4 5 -1 -1  -1 -1 6 -1 -1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"i:\\CSE\\learning\\DSA\\BinaryTree\\build.cpp","group":"local","local":true}
+{"name":"Local: build","url":"i:\\CSE\\learning\\DSA\\BinaryTree\\build.cpp","tests":[{"id":1696584753649,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"i:\\CSE\\learning\\DSA\\BinaryTree\\build.cpp","group":"local","local":true}
