@@ -1,0 +1,1 @@
+{"name":"Local: ReverseArray","url":"c:\\Users\\vivek\\DSA\\Recursion\\ReverseArray.cpp","tests":[{"id":1732036744125,"input":"5\n1 2 3 4 5","output":"5 4 3 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\vivek\\DSA\\Recursion\\ReverseArray.cpp","group":"local","local":true}
