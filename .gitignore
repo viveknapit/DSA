@@ -1,3 +1,4 @@
-* .exe
 BinaryTree/generalTemplete.exe
-* .cph
+*.cph
+
+*.exe
